@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "CarlBrown";
+    src: url("CarlBrown.ttf") format("truetype");
+    
+}
+
+
+
+body {
+    font-family: "CarlBrown", sans-serif;
+    background-image: url('./images/images (1).jpg'); 
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+@font-face {
+    font-family: "Soligant";
+    src: url("Soligant.woff2") format("woff2"),
+         url("Soligant.ttf") format("truetype");
+}
+
+p {
+    font-family: "Soligant";
+    font-size: 30px; 
+}
+
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    background-image: url('./images/images.png'); 
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
+    margin: 70px auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline; /* horizontal */
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    justify-content: center;
+
+    text-decoration: none;
+}
+.container {
+    margin-bottom: 100px;
+}
